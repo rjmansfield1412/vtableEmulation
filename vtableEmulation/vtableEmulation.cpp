@@ -281,6 +281,7 @@ int main( )
 	processCollision( *(gameObjects[2]), *(gameObjects[1]) );
 	processCollision( *(gameObjects[2]), *(gameObjects[3]) );
 	processCollision( *(gameObjects[3]), *(gameObjects[2]) );
+	processCollision( *(gameObjects[3]), *(gameObjects[0]) );
 
 	std::cout << "the end..\n";
 
